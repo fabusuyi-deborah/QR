@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: 100vh; 
+   background-color: aliceblue;
+   justify-content: center;
+   align-items: center
+   padding:1em;
+}
+.container{
+   width: 350px;
+   height: 500px;
+   padding: 1em;
+   background: white;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+img{
+    width: 100%;
+    border-radius: inherit;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    color: rgb(78, 77, 77);
+}
